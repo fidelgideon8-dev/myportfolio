@@ -1,0 +1,19 @@
+/* Minimal editorial contact form: isolated from the rest of Craftivo */
+.contact-editorial{background:#f8f7f4;color:#1b1b1b;padding:clamp(24px,4vw,52px);border:1px solid #dedbd5;border-radius:2px;box-shadow:none}
+.contact-editorial .contact-form-head{padding-bottom:28px;margin-bottom:30px;border-bottom:1px solid #d6d2cb}
+.contact-editorial .contact-eyebrow{font-size:11px;letter-spacing:.16em;font-weight:700;color:#555;display:flex;justify-content:space-between}
+.contact-editorial .contact-form-head h3{font-family:inherit;color:#171717;font-size:clamp(31px,3.5vw,51px);font-weight:650;line-height:1.13;letter-spacing:-.045em;margin:20px 0 16px}
+.contact-editorial .contact-form-head h3 em{font-weight:400;font-family:Georgia,serif;letter-spacing:-.045em}
+.contact-editorial .contact-form-head p{color:#65615c;font-size:14px;line-height:1.65;margin:0}
+.contact-editorial label{display:block;color:#514d47;font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;margin:0 0 8px}
+.contact-editorial input,.contact-editorial textarea{display:block;width:100%;border:0!important;border-bottom:1px solid #b8b3aa!important;border-radius:0!important;padding:12px 0!important;background:transparent!important;color:#1a1a1a!important;box-shadow:none!important;outline:none!important;font-size:15px;line-height:1.6;transition:border-color .2s}
+.contact-editorial input:focus,.contact-editorial textarea:focus{border-bottom:2px solid #242424!important;box-shadow:none!important}
+.contact-editorial input::placeholder,.contact-editorial textarea::placeholder{color:#8a867f;opacity:1}
+.contact-editorial textarea{min-height:126px;resize:vertical}
+.contact-editorial .contact-form-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:8px}
+.contact-editorial .contact-send-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;background:#191919;color:#fff;border:1px solid #191919;border-radius:0;padding:15px 20px;font-size:13px;font-weight:650;letter-spacing:.01em;box-shadow:none;transition:background .2s,color .2s}
+.contact-editorial .contact-send-btn:hover{background:#f8f7f4;color:#191919;transform:none;box-shadow:none}
+.contact-editorial .contact-send-btn:focus-visible{outline:2px solid #171717;outline-offset:3px}
+.contact-editorial .contact-send-btn i{font-size:17px}
+.contact-editorial .contact-email-note{color:#79746e;font-size:12px;margin:0}
+@media(max-width:575px){.contact-editorial{padding:24px 20px}.contact-editorial .contact-form-bottom{align-items:flex-start;flex-direction:column;gap:12px}}

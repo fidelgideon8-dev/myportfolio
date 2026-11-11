@@ -237,7 +237,3 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
-
-
-
-/*This is a reminder to add a portfolio*/
